@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+article{
+    text-align: center;
+}
+
+#riolo{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+#boi{
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#vern{
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#jang{
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#pexe{
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#ping{
+    padding-top: 20px;
+    text-align: center;    
+    padding-right: 30px;
+    padding-left: 30px;
+     
+}
+
+.pokestatus{
+    text-decoration: none;
+    text-align: initial;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+}

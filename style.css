@@ -1,0 +1,240 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: "japa";
+    src: url("fontes/go3v2.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "fogo";
+    src: url("fontes/charbb_reg.ttf") format("truetype"), url("fontes/charbb_reg.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "fantacia";
+    src: url("fontes/Sketch Gothic School.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "heroi";
+    src: url("fontes/CFGlitchCity-Regular.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "gelo";
+    src: url("fontes/ModiusFrigid.ttf") format("opentype");
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --heroicor01: #882a30;
+    --heroicor02: #A3020C;
+    --heroicor03: #9f020dfa;
+    --heroicor04: #700109;
+    --heroicor05: #3D0105;
+
+    --samuraicor01: #9845E6;
+    --samuraicor02: #7401E0;
+    --samuraicor03: #5A00AD;
+    --samuraicor04: #401D61;
+    --samuraicor05: #320061;
+
+}
+body{
+    background-image: url(190654.jpg);
+
+    background-attachment: fixed;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    background-color: #1d1919;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 10px black;
+    max-width: 1000px;
+    align-items: center;
+    width: 100%;
+}
+#cenariocyber{
+    background-image: url(RPG-Cyberpunk-2020-Nuckturp-1024x557.jpg);
+}
+#fantasia{
+    background-image: url(499437_teal-fire-texture-cool-flame-cold-burn-stock-photo-jpg_5067x3096_h.jpg);
+    color: rgb(187, 186, 186);
+}
+#pokemon{
+    background-image: url(pokemon02.jpg);
+}
+#samurai{
+    background-image: url(planodefundosamurai.png);
+    color: rgba(255, 255, 255, 0.726);
+}
+#monster{
+    background-image: url(Leviathan-1024x428.jpg);
+}
+#luta{
+    background-image: url(luta.jpg);
+}
+
+main{
+    margin-top: 50em;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.884);
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    height: 40px;
+    color: rgb(187, 48, 48);
+    
+    padding: 35px;
+    padding-top: 15px;
+    
+    font-size: 3em;
+    margin-top: 0px;
+}
+h2{
+
+    text-align: center;
+    
+    color: rgb(187, 48, 48);
+    font-size: 2.4em;
+    padding-top: 2px;
+    font-style: oblique;
+}
+h3{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 1.3em;
+}
+h4{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+
+}
+#hela{
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+    
+}
+#sasha{
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+}
+#cyber{
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+}
+#momo{
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+}
+#yuna{
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+}
+#vi{ 
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+}
+#mori{
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+}
+
+#importante{
+    text-align: center;
+    font-size: 1.99em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+a{
+    color: rgb(172, 48, 48);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: normal;
+    padding: 15px;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+a:active{
+    color: rgb(119, 50, 29);
+}
+
+.link::after{
+    
+    color: rgb(255, 0, 0);
+}
+.link::before{
+    
+    color: rgb(216, 6, 6);
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+li{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    text-decoration: none;
+}
+div{
+    display: block;
+    
+}
+.status{
+    font-family: "fatasia";
+    display: inline-block;
+    margin: 20px;
+    padding-left: 235px;
+}
+.magia{
+    padding-left: 97px;
+}
+
+div{
+    display:  table-cell;
+}
