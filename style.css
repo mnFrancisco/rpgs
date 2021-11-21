@@ -227,11 +227,9 @@ li{
 }
 ul{
     text-decoration: none;
+    list-style: none;
 }
-div{
-    display: block;
-    
-}
+
 .status{
     font-family: "fatasia";
     display: inline-block;
@@ -243,5 +241,5 @@ div{
 }
 
 div{
-    display:  table-cell;
+    display:  inline-block;
 }

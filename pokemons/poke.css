@@ -1,44 +1,41 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
 
 article{
     text-indent: 0%;
 }
 
+
 #riolo{
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 30px;
+    
     text-align: center;
 }
 #boi{
-    padding-top: 20px;
+    
     text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
+    
 }
 #vern{
-    padding-top: 20px;
+    
     text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
+    
 }
 #jang{
-    padding-top: 20px;
+    
     text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
+    
 }
 #pexe{
-    padding-top: 20px;
+    
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
 }
 #ping{
-    padding-top: 20px;
+    
     text-align: center;    
-    padding-right: 30px;
-    padding-left: 30px;
+    
+    
      
 }
 
