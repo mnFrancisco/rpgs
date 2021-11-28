@@ -4,7 +4,9 @@
 article{
     text-indent: 0%;
 }
-
+#pc{
+    display: none;
+}
 
 #riolo{
     
