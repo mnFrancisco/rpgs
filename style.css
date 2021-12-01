@@ -77,7 +77,8 @@ nav{
     background-image: url(pokemon02.jpg);
 }
 #samurai{
-    background-image: url(planodefundosamurai.png);
+    background-image: url(fogobranco.jpg);
+    background-size: cover;
     color: rgba(255, 255, 255, 0.726);
 }
 #monster{
@@ -161,7 +162,7 @@ h4{
     max-width: 50%;
     min-height: 50%;
 }
-#yuna{
+.yuna{
     padding: 5px;
     margin: auto;
     display: block;

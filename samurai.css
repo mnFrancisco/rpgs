@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+#yuna_espirito{
+    display: -webkit-box;
+}
 
 #poderyuna{
 
     font-family: "fogo";
     font-size: 4em;
-    color: #6c0e9b;
+    color: #f1ebf7;
 }
 
 .statuss{
