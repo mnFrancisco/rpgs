@@ -92,6 +92,10 @@ nav{
     background-image: url(luta.jpg);
     background-size: cover;
 }
+#masatsu{
+    background-image: url(yunaposuida.jpg);
+    background-size: cover;
+}
 
 main{
     margin-top: 50em;
