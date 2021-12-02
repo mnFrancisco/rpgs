@@ -68,13 +68,16 @@ nav{
 }
 #cenariocyber{
     background-image: url(RPG-Cyberpunk-2020-Nuckturp-1024x557.jpg);
+    background-size: cover;
 }
 #fantasia{
     background-image: url(499437_teal-fire-texture-cool-flame-cold-burn-stock-photo-jpg_5067x3096_h.jpg);
+    background-size: cover;
     color: rgb(187, 186, 186);
 }
 #pokemon{
     background-image: url(pokemon02.jpg);
+    background-size: cover;
 }
 #samurai{
     background-image: url(fogobranco.jpg);
@@ -83,9 +86,11 @@ nav{
 }
 #monster{
     background-image: url(Leviathan-1024x428.jpg);
+    background-size: cover;
 }
 #luta{
     background-image: url(luta.jpg);
+    background-size: cover;
 }
 
 main{
