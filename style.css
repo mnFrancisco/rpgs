@@ -50,7 +50,8 @@
 
 }
 body{
-    background-image: url(190654.jpg);
+    background-image: url(planosdefundos/space-wallpaper-200707153923281350x2400.jpg);
+    background-size: cover;
 
     background-attachment: fixed;
     text-align: justify;
