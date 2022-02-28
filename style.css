@@ -30,6 +30,10 @@
     font-family: "gelo";
     src: url("fontes/ModiusFrigid.ttf") format("opentype");
 }
+@font-face {
+    font-family: "grego";
+    src: url(fontes/DalekPinpointBold.ttf);
+}
 
 *{
     margin:0px;
@@ -94,7 +98,11 @@ nav{
     background-size: cover;
 }
 #masatsu{
-    background-image: url(planosdefundos/yunaposuida.jpg);
+    background-image: url(planosdefundos/raio\ 1.jpg);
+    background-size: cover;
+}
+.timewarriors{
+    background-image: url(planosdefundos/Fogo-Sagrado-e1511785002687.jpg);
     background-size: cover;
 }
 
@@ -187,6 +195,13 @@ h4{
     min-height: 50%;
 }
 #mori{
+    padding: 5px;
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    min-height: 50%;
+}
+#cain{
     padding: 5px;
     margin: auto;
     display: block;
