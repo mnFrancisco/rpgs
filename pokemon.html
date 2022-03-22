@@ -12,10 +12,16 @@
         #mais{
             display: none;
         }
+        #pc{
+            display: none;
+        }
         button{
             display: block;
             color: aliceblue;
             background-color: rgb(211, 21, 21);
+        }
+        .pc{
+            display: none;
         }
     </style>
 
@@ -29,10 +35,28 @@
                 pontos.style.display ="inline";
                 maisTexto.style.display = "none";
                 btnLeiaMais.innerHTML = "Leia Mais";
+
             }else{
                 pontos.style.display ="none";
                 maisTexto.style.display = "inline";
                 btnLeiaMais.innerHTML = "Ver Menus";
+            }
+        }
+
+        function leiaMais2(){
+            var pontos=document.getElementById("orf");
+            var maispoke=document.getElementById("pc");
+            var btnLeiaMais=document.getElementById("btnLeiaMaispc");
+
+            if(pontos.style.display === "none"){
+                pontos.style.display ="inline";
+                maispoke.style.display = "none";
+                btnLeiaMaispc.innerHTML = "Pokemon Guardado";
+
+            }else{
+                pontos.style.display ="none";
+                maispoke.style.display = "inline";
+                btnLeiaMaispc.innerHTML = "Ver Menus";
             }
         }
     </script>
@@ -51,7 +75,7 @@
     <main>
         <section>
             <h1>Violetta Sold</h1>
-            <img src="imagen/vi(2).jpg" alt="vi//pokemon" id="vi"> 
+            <img src="imagen/vi(4).jpg" alt="vi//pokemon" id="vi"> 
             <h2>Historia</h2>
             <p>
             É incrível como as coisas podem mudar tão repentinamente e para mim isso aconteceu quando eu tinha apenas 9 anos meu nome é violetta sold eu nasci em uma família de boas
@@ -144,20 +168,20 @@
             </ul>
         </section>
 
-           <section class="tabelasbonitinhas">
-               <h3>Status</h3>
-               <ul>
-                   <li>Hp: 5 </li>
-                   <li>Força: 1 </li>
-                   <li>Furtividade: 1 </li>
-                   <li>Captura: 1 </li>
-                   <li>Treinamento: 2 </li>
-                   <li>Velucidade: 1 </li>
-               </ul>
-           </section>
+         <section class="tabelasbonitinhas">
+            <h3>Status</h3>
+            <ul>
+                <li>Hp: 5 </li>
+                <li>Força: 1 </li>
+                <li>Furtividade: 1 </li>
+                <li>Captura: 1 </li>
+                <li>Treinamento: 2 </li>
+                <li>Velucidade: 1 </li>
+            </ul>
+        </section>
 
             <h2>Pokemons </h2>
-
+            <!--riolu-->
             <article>
                 <div id="riolo">
                     <img src="pokemons/Riolu.png" alt="pokemon">
@@ -175,6 +199,7 @@
                 </div>
             </article>
 
+            <!--noivern-->
             <article>
                 <div id="vern">
                     <img src="pokemons/Noivern.webp" alt="popkemon">
@@ -193,6 +218,7 @@
                 </div>
             </article>
 
+            <!--esicui-->
             <article>
                 <div id="ping">
                     <img src="pokemons/ping.png" alt="">
@@ -208,8 +234,9 @@
                         <li>Speed: 50(+100)=150</li>
                         <li>Amizade: 45</li>
                 </div>
-            </article>      
-      
+            </article>
+
+            <!--mimikyu-->
             <article>
                 <div id="boi">
                     <img src="pokemons/Mimikyu.png" alt="pokemon">
@@ -228,6 +255,7 @@
                 </div>
             </article>
 
+            <!--cramorant-->
             <article>
                 <div id="pexe">
                     <img src="pokemons/stat-cramorant.png" alt="">
@@ -244,7 +272,7 @@
                         <li>Amizade: 75</li>
                 </div>
             </article>
-
+            <!--heliopitile-->
             <article>
                 <div id="jang">
                     <img src="pokemons/helioptile.png" alt="heliopiteli">
@@ -262,35 +290,45 @@
                 
                 </div>
             </article>
+ 
+            <span id="orf"> <H3> PC </H3> </span>
 
-            <article id="pc">
-
-            <img src="pokemons/Jang.png" alt="jangmo-o">
-            <h3>Jangmo-o</h3>
-            <p>Lv: 8 Habilidade: Bulletproof</p>
-            <p>Skills:Leer,Protect,Tackle</p>
-            <ul class="pokestatus">
-                <li>HP: 45+10</li>
-                <li>Atk: 55</li>
-                <li>Def: 65</li>
-                <li>Esp.Atk: 45</li>
-                <li>Esp.Def: 45</li>
-                <li>Speed: 45+20</li>
-                <li>Amizade: 35</li>
-            </ul>
+            <span id="pc">
+                <article>
+                    <img src="pokemons/Jang.png" alt="jangmo-o">
+                    <div class="pc">
+                        <h3>Jangmo-o</h3>
+                        <p>Lv: 8 Habilidade: Bulletproof</p>
+                        <p>Skills:Leer,Protect,Tackle</p>
+                        <ul class="pokestatus">
+                        <li>HP: 45+10</li>
+                        <li>Atk: 55</li>
+                        <li>Def: 65</li>
+                        <li>Esp.Atk: 45</li>
+                        <li>Esp.Def: 45</li>
+                        <li>Speed: 45+20</li>
+                        <li>Amizade: 35</li>
+                        </ul>
+                    </div>
+                </article>
             
-            <img src="pokemons/Murkrow_by_xous54.png" alt="">
-
-            <img src="pokemons/Tauros.png" alt="">
-
-            <img src="pokemons/carvanha_by_archiri_d73c76k-fullview.png" alt="">
-
-            <img src="pokemons/Houndour.png" alt="">
-
+            <article>
+                <img src="pokemons/Murkrow_by_xous54.png" alt="">   
             </article>
-                
-                
-                 
+
+            <article>
+                <img src="pokemons/Tauros.png" alt="">  
+            </article>
+
+            <article>
+                <img src="pokemons/carvanha_by_archiri_d73c76k-fullview.png" alt="">    
+            </article>
+
+            <article>
+                <img src="pokemons/Houndour.png" alt="">    
+            </article> </span>
+
+            <button onclick="leiaMais2()" id="btnLeiaMaispc"> Pokemon Guardado</button>    
                 
             </article>
 
