@@ -1,9 +1,53 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
 
-article{
+article p {
+    text-align: initial;
     text-indent: 0%;
 }
+
+article div{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+
+    max-width: 600px;
+    min-width: 290px;
+}
+
+article{
+    text-indent: 0%;
+    display: contents;
+    
+}
+h1{
+    background-color: #2567f5;
+    color: #2eee1c;
+    font-family: "Gluten",cursive;
+    margin-bottom: 1px;
+}
+
+h2{
+   background-color: #286cfd;
+    color: #2af018;
+    font-family: "Gluten",cursive;
+    margin-top: 1px;
+
+    padding: 5px;
+}
+
+h3{
+    margin: 5px;
+}
+
+a{
+    color: #7FF536;
+    font-family: "Gluten",cursive;
+}
+
 #pc{
     display: none;
 }
@@ -12,16 +56,19 @@ article{
     
     text-align: center;
 }
+
 #boi{
     
     text-align: center;
     
 }
+
 #vern{
     
     text-align: center;
     
 }
+
 #jang{
     
     text-align: center;
@@ -33,6 +80,7 @@ article{
     padding-right: 30px;
     padding-left: 30px;
 }
+
 #ping{
     
     text-align: center;    

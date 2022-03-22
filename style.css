@@ -269,3 +269,12 @@ ul{
 div{
     display:  inline-block;
 }
+
+.tabelasbonitinhas{
+    display: inline-table;
+    margin: 20px;
+    margin-left: 8rem;
+    padding-left: 90px;
+    text-align: inherit;
+}
+
