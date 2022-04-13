@@ -39,28 +39,7 @@
     margin:0px;
     padding: 0px;
 }
-:root{
-    --heroicor01: #882a30;
-    --heroicor02: #A3020C;
-    --heroicor03: #9f020dfa;
-    --heroicor04: #700109;
-    --heroicor05: #3D0105;
 
-    --samuraicor01: #9845E6;
-    --samuraicor02: #7401E0;
-    --samuraicor03: #5A00AD;
-    --samuraicor04: #401D61;
-    --samuraicor05: #320061;
-
-}
-body{
-    background-image: url(planosdefundos/space-wallpaper-200707153923281350x2400.jpg);
-    background-size: cover;
-
-    background-attachment: fixed;
-    text-align: justify;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 nav{
     background-color: #1d1919;
     margin: auto;
@@ -71,38 +50,28 @@ nav{
     align-items: center;
     width: 100%;
 }
-#cenariocyber{
-    background-image: url(planosdefundos/RPG-Cyberpunk-2020-Nuckturp-1024x557.jpg);
+
+
+body{
+    background-image: url(../planosdefundos/space-wallpaper-200707153923281350x2400.jpg);
     background-size: cover;
+
+    background-attachment: fixed;
+    text-align: justify;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#fantasia{
-    background-image: url(planosdefundos/499437_teal-fire-texture-cool-flame-cold-burn-stock-photo-jpg_5067x3096_h.jpg);
-    background-size: cover;
-    color: rgb(187, 186, 186);
-}
+
 #pokemon{
-    background-image: url(planosdefundos/pokemon02.jpg);
+    background-image: url(../planosdefundos/pokemon02.jpg);
     background-size: cover;
 }
 #samurai{
-    background-image: url(planosdefundos/fogobranco.jpg);
+    background-image: url(../planosdefundos/fogobranco.jpg);
     background-size: cover;
     color: rgba(255, 255, 255, 0.726);
 }
 #monster{
-    background-image: url(planosdefundos/Leviathan-1024x428.jpg);
-    background-size: cover;
-}
-#luta{
-    background-image: url(planosdefundos/luta.jpg);
-    background-size: cover;
-}
-#masatsu{
-    background-image: url(planosdefundos/raio\ 1.jpg);
-    background-size: cover;
-}
-.timewarriors{
-    background-image: url(planosdefundos/Fogo-Sagrado-e1511785002687.jpg);
+    background-image: url(../planosdefundos/Leviathan-1024x428.jpg);
     background-size: cover;
 }
 
@@ -151,70 +120,14 @@ h4{
     font-family: 'Sigmar One', cursive;
 
 }
-#hela{
+.img-persona{
     padding: 5px;
     margin: auto;
     display: block;
     max-width: 50%;
     min-height: 50%;
-    
-}
-#sasha{
-    padding: 5px;
-    margin: auto;
-    display: block;
-    max-width: 50%;
-    min-height: 50%;
-}
-#cyber{
-    padding: 5px;
-    margin: auto;
-    display: block;
-    max-width: 50%;
-    min-height: 50%;
-}
-#momo{
-    padding: 5px;
-    margin: auto;
-    display: block;
-    max-width: 50%;
-    min-height: 50%;
-}
-.yuna{
-    padding: 5px;
-    margin: auto;
-    display: block;
-    max-width: 50%;
-    min-height: 50%;
-}
-#vi{ 
-    padding: 5px;
-    margin: auto;
-    display: block;
-    max-width: 50%;
-    min-height: 50%;
-}
-#mori{
-    padding: 5px;
-    margin: auto;
-    display: block;
-    max-width: 50%;
-    min-height: 50%;
-}
-#cain{
-    padding: 5px;
-    margin: auto;
-    display: block;
-    max-width: 50%;
-    min-height: 50%;
-}
+}    
 
-#importante{
-    text-align: center;
-    font-size: 1.4em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
 
 
 
