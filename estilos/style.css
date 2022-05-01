@@ -4,9 +4,13 @@
 
 @font-face {
     font-family: "japa";
-    src: url("fontes/go3v2.ttf") format("opentype");
+    src: url("../fontes/go3v2.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: "nordico";
+    src: url("../fontes/PR Viking.ttf") format("opentype");
 }
 @font-face {
     font-family: "fogo";
@@ -71,7 +75,7 @@ body{
     color: rgba(255, 255, 255, 0.726);
 }
 #monster{
-    background-image: url(../planosdefundos/Leviathan-1024x428.jpg);
+    background-image: url(../planosdefundos/raio\ 1.jpg);
     background-size: cover;
 }
 
@@ -182,18 +186,6 @@ ul{
     text-decoration: none;
     list-style: none;
 }
-
-.status{
-    font-family: "fatasia";
-    display: inline-block;
-    margin: 20px;
-    padding-left: 220px;
-}
-.magia{
-    padding-left: 97px;
-}
-
-
 
 .tb-responsiva{
 
