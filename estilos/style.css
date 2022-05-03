@@ -125,6 +125,7 @@ h4{
     display: block;
     max-width: 50%;
     min-height: 50%;
+    border-radius: 10px;
 }    
 
 
