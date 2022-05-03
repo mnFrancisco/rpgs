@@ -14,30 +14,22 @@
 }
 @font-face {
     font-family: "fogo";
-    src: url("fontes/charbb_reg.ttf") format("truetype"), url("fontes/charbb_reg.ttf") format("opentype");
+    src: url("../fontes/charbb_reg.ttf") format("truetype"), url("fontes/charbb_reg.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "fantacia";
-    src: url("fontes/Sketch Gothic School.ttf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
+    src: url("../fontes/Seagram tfb.ttf") format("truetype");
 }
 @font-face {
     font-family: "heroi";
-    src: url("fontes/CFGlitchCity-Regular.ttf") format("opentype");
+    src: url("../fontes/CFGlitchCity-Regular.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: "gelo";
-    src: url("fontes/ModiusFrigid.ttf") format("opentype");
-}
-@font-face {
-    font-family: "grego";
-    src: url(fontes/DalekPinpointBold.ttf);
-}
+
+
 
 *{
     margin:0px;
@@ -78,7 +70,10 @@ body{
     background-image: url(../planosdefundos/raio\ 1.jpg);
     background-size: cover;
 }
-
+#fantasia{
+    background-image: url(../planosdefundos/fantasia.jpg);
+    background-size: cover;
+}
 main{
     margin-top: 50em;
     max-width: 1000px;
@@ -208,5 +203,20 @@ ul{
 .inventario{
 
     margin: 20px;
+
+}
+
+@media (max-width:580px){
+
+    .tb-responsiva{
+
+        display: inline-block;
+        
+        padding: 10PX;
+    }
+
+    h3{
+        text-align: start;
+    }
 
 }
