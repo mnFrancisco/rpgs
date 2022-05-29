@@ -47,45 +47,8 @@ a{
     font-family: "Gluten",cursive;
 }
 
-#pc{
-    display: none;
-}
-
-#riolo{
-    
+.pokeimg{
     text-align: center;
-}
-
-#boi{
-    
-    text-align: center;
-    
-}
-
-#vern{
-    
-    text-align: center;
-    
-}
-
-#jang{
-    
-    text-align: center;
-    
-}
-#pexe{
-    
-    text-align: center;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-#ping{
-    
-    text-align: center;    
-    
-    
-     
 }
 
 .pokestatus{

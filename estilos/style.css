@@ -137,6 +137,7 @@ button{
     margin: 2px;
     display: block;
     color: aliceblue;
+    border-radius: 0px 10px 10px 0px;
     background-color: rgb(211, 21, 21);
 }
     /*BOTÃO*/
@@ -184,14 +185,13 @@ ul{
 }
 
 .tb-responsiva{
-
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     padding: 20px;
-
 }
+
 .timepoke{
     display: flex;
     justify-content: space-around;
