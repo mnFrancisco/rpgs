@@ -1,0 +1,68 @@
+@charset "UTF-8";
+*{
+    padding: 0%;
+    margin: 0%;
+    }
+
+a div{
+    background-image: url(planosdefundos/Fogo-Sagrado-e1511785002687.jpg);
+    background-size: cover;
+    max-width: 28.3em;
+    width: 100vw;
+    max-height: 17.3em;
+    height: 100vw;
+    text-align: center;
+    }
+div p{
+    font-size: 4rem;
+    padding-top: 6rem;
+    }
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.5s;
+    }
+a:hover{
+    color: brown;
+    }
+section{
+    display: inline-block;
+    flex-wrap: wrap;
+
+    padding: 2px;
+    }
+.tb-responsiva{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+    }
+h1{
+    font-size: 10rem;
+    color: #8a90d0;
+    }
+body{
+    background-image: linear-gradient(195deg, #2A0061, #6f08f7);
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    }
+
+#h{
+    background-image: url(../planosdefundos/links-home/heroi.jpg);
+    }
+#p{
+    background-image: url(../planosdefundos/links-home/pokemon.jpg);
+    }
+#s{
+    background-image: url(../planosdefundos/links-home/samurai.jpg);
+   }
+#f{
+    background-image: url(../planosdefundos/links-home/fantasia2.jpg);
+    }
+#m{
+    background-image: url(../planosdefundos/links-home/monster.jpg);
+    }
+#c{
+    background-image: url(../planosdefundos/links-home/cyber.jpg);
+    }

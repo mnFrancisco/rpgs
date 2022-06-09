@@ -6,6 +6,12 @@ article p {
     text-indent: 0%;
 }
 
+.bnt-pc{
+    
+    padding: 8px;
+    padding-left: 2rem;
+}
+
 article div{
     margin: 20px;
 
