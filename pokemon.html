@@ -13,7 +13,10 @@
             display: none;
         }
         #pc{
-            display: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: 1.1rem;
+            padding: 5px;
         }
         
     </style>
@@ -33,23 +36,6 @@
                 pontos.style.display ="none";
                 maisTexto.style.display = "inline";
                 btnLeiaMais.innerHTML = "Ver Menus";
-            }
-        }
-
-        function leiaMais2(){
-            var pontos=document.getElementById("orf");
-            var maispoke=document.getElementById("pc");
-            var btnLeiaMais=document.getElementById("btnLeiaMaispc");
-
-            if(pontos.style.display === "none"){
-                pontos.style.display ="inline";
-                maispoke.style.display = "none";
-                btnLeiaMaispc.innerHTML = "PC";
-
-            }else{
-                pontos.style.display ="none";
-                maispoke.style.display = "inline";
-                btnLeiaMaispc.innerHTML = "Sair";
             }
         }
     </script>
@@ -295,143 +281,10 @@
                     </div>
                 </article>
             </section>
- 
-            <span id="orf"> <H3>  </H3> </span>
-            
-            
-            <!--PC-->
-            <span id="pc">
+  
 
-            
-            <h2>PC</h2>
-
-            <section class="timepoke">
-
-                <!--Carvanha-->
-                <article>
-                    <div  class="pokeimg">
-
-                        <img src="pokemons/carvanha_by_archiri_d73c76k-fullview.png" alt="carvanha">
-                        
-                            <h3>Carvanha 🌊🌙</h3>
-                            <p>Lv: 5(0xp) Hab: Rogue skin <br> Per: Serios</p>
-                            <p>Skills: Aqua jet, Poison Fang, Leer <br> Headbutt, Mist</p>
-                            <ul class="pokestatus">
-                            <li>HP: 48</li>
-                            <li>Atk: 98</li>
-                            <li>Def: 20</li>
-                            <li>Esp.Atk: 73</li>
-                            <li>Esp.Def: 20</li>
-                            <li>Speed: 69</li>
-                            <li>Amizade: 45</li>
-                            </ul>
-                    </div>
-                </article>
-
-
-                <!--Jangmo-o-->
-                <article>
-                    <div class="pokeimg">
-                        <img src="pokemons/Jang.png" alt="jangmo-o">
-                        <h3>Jangmo-o 🐉</h3>
-                        <p>Lv: 8 Habilidade: Bulletproof</p>
-                        <p>Skills:Leer,Protect,Tackle</p>
-                        <ul class="pokestatus">
-                        <li>HP: 53</li>
-                        <li>Atk: 55</li>
-                        <li>Def: 73</li>
-                        <li>Esp.Atk: 53</li>
-                        <li>Esp.Def: 41</li>
-                        <li>Speed: 53</li>
-                        <li>Amizade: 35</li>
-                        </ul>
-                    </div>
-                </article>
-
-
-                <!--Eiscui-->
-                <article>
-                    <div class="pokeimg">
-                        <img src="pokemons/ping.png" alt="">
-                        <h3>Eiscue 🧊</h3>
-                        <p>Lv: 25(0xp)   Hab: Ice Face <br>  Per: Timido</p>
-                        <p>Skills:Powder Snowl,Icy wind, <br> Headbutt, Mist</p>
-                        <ul class="pokestatus">
-                        <li>HP: 147</li>
-                        <li>Atk: 56</li>
-                        <li>Def: 134</li>
-                        <li>Esp.Atk: 113</li>
-                        <li>Esp.Def: 90</li>
-                        <li>Speed: 98</li>
-                        <li>Amizade: 45</li>
-                        </ul>
-                    </div>
-                </article>
-
-
-                <!--mimikyu-->
-                <article>
-                    <di class="pokeimg">
-                        <img src="pokemons/Mimikyu.png" alt="pokemon">
-                        <h3>Mimikyu F. 👻💖</h3>
-                        <p>Lv:60(0xp)  Habi: Desuise <br>  Per: Corajoso </p>
-                        <p>Skills: Shadow Claw, Phanton Force,<br>Play Rough, Destiny Bond </p>
-                        <ul class="pokestatus">
-                            <li>Hp: 173</li>
-                            <li>Attack: 236</li>
-                            <li>Defense: 80</li>
-                            <li>Sp.Attack: 168</li>
-                            <li>Sp.Defense: 105</li>
-                            <li>Speed: 127</li>
-                            <li>Amizade: 000</li>
-                        </ul>
-                    </div>
-                </article>
-
-
-                <!--wooloo-->
-                <article>
-                    <div class="pokeimg">
-                        <img src="pokemons/wooloo.png" alt="">
-                        <h3>Wooloo 🔘</h3>
-                        <p>Lv: 10(0xp)   Hab: Fluffy <br>  Per: Docil</p>
-                        <p>Skills:Growl, Defense Curl, Tackle, <br> Copycat</p>
-                        <ul class="pokestatus">
-                        <li>HP: 78</li>
-                        <li>Atk: 55</li>
-                        <li>Def: 64</li>
-                        <li>Esp.Atk: 58</li>
-                        <li>Esp.Def: 45</li>
-                        <li>Speed: 48</li>
-                        <li>Amizade: 75</li>
-                        </ul>
-                    </div>
-                </article>
-
-
-                <!--Houndour-->
-                <article>
-                    <div class="pokeimg">
-                        <img src="pokemons/Houndour.png" alt="">
-                        <h3>Houndour 🌙🔥</h3>
-                        <p>Lv: 5(0xp)   Hab: Flash fire  <br>  Per: Mild</p>
-                        <p>Skills:Ember, howl, Leer</p>
-                        <ul class="pokestatus">
-                        <li>HP: 56</li>
-                        <li>Atk: 60</li>
-                        <li>Def: 38</li>
-                        <li>Esp.Atk: 96</li>
-                        <li>Esp.Def: 50</li>
-                        <li>Speed: 73</li>
-                        <li>Amizade: 30</li>
-                        </ul>
-                    </div>
-                </article>
-            </section> </span>
-
-            <button onclick="leiaMais2()" id="btnLeiaMaispc" class="bnt-pc"> PC 🖥️ </button>    
-                
-        
+            <button><a href="./pokemons/pc.html" target="_blank" id="pc">PC 🖥️</a></button>
+   
 
             <h2>Inventário</h2>
             <section class="inventario">
