@@ -64,7 +64,7 @@ body{
 }
 
 #pokemon{
-    background-image: url(../planosdefundos/pokemon02.jpg);
+    background-image: url(../planosdefundos/poketest4.jpg);
     background-size: cover;
 }
 #samurai{
@@ -80,6 +80,10 @@ body{
     background-image: url(../planosdefundos/fantasia.jpg);
     background-size: cover;
 }
+#cdz{
+    background-image: url(../planosdefundos/cdz__01.jpg);
+    background-size: cover;
+}
 main{
     margin-top: 50em;
     max-width: 1000px;
@@ -87,7 +91,7 @@ main{
     margin: auto;
     padding-bottom: 5px;
     margin-bottom: 5px;
-    background-color: rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 0.849);
     box-shadow: 0px 0px 10px black;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
