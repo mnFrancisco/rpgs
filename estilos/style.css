@@ -28,6 +28,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "cdz";
+    src: url("../fontes/MCapitals.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -113,7 +119,7 @@ h2{
     text-align: center;
     
     color: rgb(187, 48, 48);
-    font-size: 2.4em;
+    font-size: 2.1em;
     padding-top: 20px;
     padding-bottom: 10px;
     font-style: oblique;
@@ -203,6 +209,7 @@ ul{
     flex-wrap: wrap;
     align-items: baseline;
     padding: 20px;
+    list-style: none;
 }
 
 .timepoke{
