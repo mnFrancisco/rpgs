@@ -3,19 +3,22 @@
 
 article p {
     text-align: initial;
+    font-size: 20px;
     text-indent: 0%;
+    margin: 0%;
 }
 
-.bnt-pc{
-    
-    padding: 8px;
-    padding-left: 2rem;
+#btn_pc{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+div button{
+    background-color: dimgray;
 }
 
 article div{
-    margin: 20px;
-
-    max-width: 600px;
+    max-width: 300px;
     min-width: 200px;
 }
 
@@ -44,7 +47,7 @@ h3{
     margin: 5px;
 }
 li > h3{
-    font-size: 1.2rem;
+    font-size: 20px;
     text-align: initial;
     margin: 0%;
 }
@@ -52,14 +55,23 @@ a{
     color: #7FF536;
     font-family: "Gluten",cursive;
 }
+a>img{
+    width: 200px;
+    height: 200px;
+}
 
 .pokeimg{
     text-align: center;
-    padding: 0.4rem;
+    padding: 1rem;
 }
 
 .pokestatus{
     text-decoration: none;
     text-align: initial;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+article button{
+    border-radius: 5px;
+    background-color: dimgray;
 }
